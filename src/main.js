@@ -21,8 +21,8 @@ let ac = Array(WINDOW_LENGTH).fill(0.5);
 
 // draw the signal data as it comes
 let lineArr = [];
-const MAX_LENGTH = 100;
-const DURATION = 100;
+const MAX_LENGTH = 500;
+const DURATION = 500;
 let chart = realTimeLineChart();
 
 let constraintsObj = {
