@@ -15,7 +15,7 @@ let acFrame = 0.008; // start with dummy flat signal
 let acWindow = 0.008;
 
 let nFrame = 0;
-const WINDOW_LENGTH = 600; // 600 frames = 10s @ 60 FPS
+const WINDOW_LENGTH = 300; // 300 frames = 5s @ 60 FPS
 let acdc = Array(WINDOW_LENGTH).fill(0.5);
 let ac = Array(WINDOW_LENGTH).fill(0.5);
 
